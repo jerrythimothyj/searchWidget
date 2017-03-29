@@ -1,0 +1,49 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.bd-thick {
+	border: 3px solid;
+}
+
+.searchbox {
+	padding: 20px 15px;
+	width: 100%;
+}
+
+.searchbox-icon {
+	top: 10px;
+	width: 25px;
+}
+
+.searchbox-input[type=text] {
+	border: none;
+	border-bottom: 1px solid;
+	background: transparent;
+}
+
+.records-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.records-list li {
+	padding: 20px;
+}
+
+.grid-row {
+	display: -moz-flex;
+  	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.grid-cell {
+	padding: 5px 0;
+	flex: 1 1 0;
+	min-width: 200px;
+}

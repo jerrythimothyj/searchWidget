@@ -1,0 +1,31 @@
+.bd-dark {
+	border-color: #443F5D;
+}
+
+.bd-light {
+	border-color: #E8E8E8;
+}
+
+.bd-top-black {
+	border-top-color: #000000;
+}
+
+.bg-main {
+	background-color: #E8E8E8;
+}
+
+.bg-dark {
+	background-color: #443F5D;
+}
+
+.bg-light {
+	background-color: #E8E8E8;
+}
+
+.text-light {
+	color: #E8E8E8;
+}
+
+.records-list li:nth-child(odd) {
+	background-color: #FFFFFF;
+}
